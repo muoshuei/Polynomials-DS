@@ -1,2 +1,3 @@
 # Poynomials-DS
-Data Structure Homework about Linked lists
+
+This is a data structure homework about wrapping polynomials into linked lists.
