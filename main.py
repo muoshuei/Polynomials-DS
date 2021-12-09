@@ -4,10 +4,6 @@ class Term(object):
     def __init__(self, coefficient: float, power: int):
         self.coefficient = coefficient
         self.power = power
-class Polynomial(object):
-    def __init__(self, function_head: str = 'f', indeterminate: str = 'x', poly: str = '0'):
-        self.list = SingleLinkedList()
-        self.str_form = f'{function_head}({indeterminate}) = {poly}'
 
 def print_polynomial(list: SingleLinkedList, name:str):
     print(f'{name}(x) = ', end = '')
